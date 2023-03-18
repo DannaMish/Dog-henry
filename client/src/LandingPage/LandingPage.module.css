@@ -1,0 +1,8 @@
+.imgFondo{
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(https://im.indiatimes.in/content/itimes/blog/2016/Nov/16/1479298428-10-cutest-dog-gifs-in-the-world-that-will-give-you-happy-tears.gif?w=1200&h=900&cc=1);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+  }
