@@ -41,7 +41,9 @@ export default function DogGrid(){
     return(
     <ul className={style.container}>
         {currentDogs.map((dog)=>
-        <li>
+       
+       <li key={dog.name}>
+
             <DogCard
             image={dog.image}
             name={dog.name}
