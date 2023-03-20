@@ -10,6 +10,7 @@ function App() {
     <Router>
       
         <Switch>
+          
           <Route path="/detail/:id"><Detail /></Route>
           <Route path="/home" > <HomePage /> </Route>
           <Route path="/" > <LandingPage /> </Route>
