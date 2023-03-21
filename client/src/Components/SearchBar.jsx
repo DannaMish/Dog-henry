@@ -20,6 +20,14 @@ export default function SearchBar() {
                 <input className={style.input} type="text" onChange={handleChange}></input>
                 <button type="submit">Buscar</button>
             </form>
+
+            <div>
+             <select>
+                <option value="asc">Ascendente</option>
+                <option value="desc">Descendente</option>
+             </select>
+            </div>
+
         </div>
     )
 }
