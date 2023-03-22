@@ -1,7 +1,8 @@
 .card{
+    font-style: italic;
     color: rgb(238, 69, 69);
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     border: 1px solid rgb(238, 69, 69);
     box-shadow: 3px 3px 3px 3px;
     width: 320px;
@@ -13,8 +14,9 @@
     background-image: url("https://previews.123rf.com/images/svetlanaprikhnenko/svetlanaprikhnenko1304/svetlanaprikhnenko130400007/18847705-fondo-incons%C3%BAtil-con-huella-de-gato-y-perro.jpg");
 }
 .top{
-display: flex;
-justify-content: space-around;
-margin: 20px;
-color: rgb(122, 6, 6);
+    font-style: oblique;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    color: rgb(122, 6, 6);
 }

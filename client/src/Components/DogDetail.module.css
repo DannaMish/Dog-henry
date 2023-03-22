@@ -14,14 +14,16 @@
     width: 600px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px rgb(132, 131, 143);
+    box-shadow: 5px 5px 5px 5px rgb(109, 103, 169);
 }
 
 .par{
-    font-size: 20px;
-    color:brown;
+    font-style: italic;
+    font-size: 25px;
+    color:rgb(12, 11, 11);
 }
 .title{
+    font-style: italic;
     font-size: 30px;
-    color:brown;
+    color:rgb(0, 0, 0);
 }

@@ -12,7 +12,7 @@ export default function DogCard(props) {
               <img src={props.image} alt="" width="320px" height="290px"/>
               <div>
               <h3>{props.temperaments}</h3>
-              <h3>{props.weight}</h3>
+              <h3>{props.weight}  Kg</h3>
               </div>
         </div>
     )
