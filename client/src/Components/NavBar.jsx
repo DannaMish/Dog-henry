@@ -5,8 +5,8 @@ import style from "./NavBar.module.css"
 export default function NavBar (){
     return(
         <div className={style.mainContainer}>
-          <Link to="./dogs/:Id">Detail</Link>
-          <Link to="./dogs">Create Dog</Link>
+          <Link to="./createDog">Create Dog</Link>
+          <Link to="./">Landing</Link>
         </div>
     )
 }

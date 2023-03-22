@@ -1,19 +1,27 @@
 import SearchBar from "../Components/SearchBar";
-import DogGrid from "../Components/DogGrid";
 import NavBar from "../Components/NavBar";
+import DogGrid from "../Components/DogGrid";
+
 
 
 export default function Home (){
-   
+
+
+    
+
     return (
             <div>
-            <div >
-                <SearchBar/>
-                <NavBar/>
-            </div>
-            <div>
-                <DogGrid/>
-            </div>
+                <div >
+                    <NavBar/>
+                    <SearchBar/> 
+                </div>
+                <div>                
+                    <DogGrid/>
+                                    
+                </div>
             </div>
         )
     }
+
+    
+    
